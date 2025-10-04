@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Selection Popup",
+    "version": "1.0",
+    "description": "Displays selected text in a popup without clicking.",
+    "permissions": [],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
