@@ -105,7 +105,7 @@ def ask_ai():
     if email:
         user = User.query.filter_by(email=email).first()
         if user:
-            ext_q = ExtensionSolvedQuestion(question_title=question, user_id=user.id)
+            ext_q = ExtensionSolvedQuestion(question_title=question[157:], user_id=user.id)
             db.session.add(ext_q)
             db.session.commit()
 
