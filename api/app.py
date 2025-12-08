@@ -101,7 +101,7 @@ def ask_ai():
         return jsonify({"error": "No question provided"}), 400
 
     # Store the question to ExtensionSolvedQuestion if email is provided
-    print(email)
+    # print(email)
     if email:
         user = User.query.filter_by(email=email).first()
         if user:
