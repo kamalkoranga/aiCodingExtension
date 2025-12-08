@@ -1,4 +1,4 @@
-// Background script for KlkaAssistant Extension
+// Background script for AlgoSpark Extension
 
 // Create context menu when extension is installed
 chrome.runtime.onInstalled.addListener(() => {

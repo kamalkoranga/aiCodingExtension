@@ -1,4 +1,4 @@
-// Content script for KlkaAssistant Extension
+// Content script for AlgoSpark Extension
 
 // Check if extension context is still valid
 function isExtensionContextValid() {

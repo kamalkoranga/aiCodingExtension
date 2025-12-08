@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "KlkaAssistant - AI Code Helper",
+  "name": "AlgoSpark - AI Code Helper",
   "version": "1.0.0",
   "description": "Analyze code with AI - Get hints, suggestions, explanations, and solutions instantly",
   "permissions": [
@@ -35,7 +35,7 @@
       "48": "icons/icon48.png"
     },
     "default_popup": "popup.html",
-    "default_title": "KlkaAssistant"
+    "default_title": "AlgoSpark"
   },
   "icons": {
     "128": "icons/icon128.png",

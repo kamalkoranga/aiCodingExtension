@@ -1,4 +1,4 @@
-# KlkaAssistant's Backend
+# AlgoSpark's Backend
 - /search/{options} -> for searching selected text
     - options:
         - solutions

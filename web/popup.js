@@ -1,4 +1,4 @@
-// Popup script for KlkaAssistant Extension
+// Popup script for AlgoSpark Extension
 class CodeAssistant {
   constructor() {
     this.init();
