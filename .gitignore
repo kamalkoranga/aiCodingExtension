@@ -2,3 +2,8 @@ env/
 .env
 manual_testing/
 __pycache__/
+node_modules/
+supabase/
+package-lock.json
+.DS_Store
+package.json
