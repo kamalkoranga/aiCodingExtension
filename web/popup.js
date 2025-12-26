@@ -256,8 +256,8 @@ class CodeAssistant {
 
       console.log('User email for API:', userEmail);
 
-      // const response = await fetch("https://api-sand-two-62.vercel.app/api/ask", {
-      const response = await fetch("http://127.0.0.1:5000/api/ask", {
+      const response = await fetch("https://api-sand-two-62.vercel.app/api/ask", {
+      // const response = await fetch("http://127.0.0.1:5000/api/ask", {
       
         method: "POST",
         headers: {
@@ -571,8 +571,8 @@ sendOtpBtn.onclick = async function () {
 
   try {
     // Call your backend to send OTP
-    // const response = await fetch('https://api-sand-two-62.vercel.app/api/send-otp', {
-    const response = await fetch('http://127.0.0.1:5000/api/send-otp', {
+    const response = await fetch('https://api-sand-two-62.vercel.app/api/send-otp', {
+    // const response = await fetch('http://127.0.0.1:5000/api/send-otp', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email })
@@ -602,8 +602,8 @@ verifyOtpBtn.onclick = function () {
     localStorage.setItem('codeAssistantLoggedIn', '1'); // Persist login
     localStorage.setItem('codeAssistantUserEmail', loginEmail.value.trim());
 
-    // fetch('https://api-sand-two-62.vercel.app/api/verify-user', {
-    fetch('http://127.0.0.1:5000/api/verify-user', {
+    fetch('https://api-sand-two-62.vercel.app/api/verify-user', {
+    // fetch('http://127.0.0.1:5000/api/verify-user', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email: loginEmail.value.trim() })
