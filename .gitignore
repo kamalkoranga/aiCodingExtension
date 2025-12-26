@@ -1,1 +1,4 @@
 env/
+.env
+manual_testing/
+__pycache__/

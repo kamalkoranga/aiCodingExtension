@@ -1,0 +1,1 @@
+# AlgoSpark's Web Extension
