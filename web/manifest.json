@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "AlgoSpark - AI Code Helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Analyze code with AI - Get hints, suggestions, explanations, and solutions instantly",
   "permissions": [
     "activeTab",
