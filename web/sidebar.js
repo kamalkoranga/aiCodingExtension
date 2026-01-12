@@ -131,8 +131,7 @@ const ctx = {
     setStatus("Analyzing...");
 
     try {
-      // Example request: replace with your python API endpoint & API key
-      const PYTHON_API_URL = "https://example.com/analyze"; // <-- change me
+      const PYTHON_API_URL = "API_URL";
       const payload = {
         text,
         tabs: ["hints", "suggestions", "explanation", "clean", "solutions", "errors"]
