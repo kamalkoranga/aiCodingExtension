@@ -58,9 +58,9 @@
     @apply border-border;
   }
 
-  html, body {
+  /* html, body {
     @apply overflow-hidden;
-  }
+  } */
 
   body {
     @apply bg-background text-foreground font-sans antialiased;
