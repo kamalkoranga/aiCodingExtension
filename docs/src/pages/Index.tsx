@@ -64,7 +64,7 @@ const Index = () => {
           </div>
           {/* GitHub Repo Link */}
           <a 
-            href="https://github.com/yourusername/algospark" 
+            href="https://github.com/kamalkoranga/aiCodingExtension" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 mt-6 px-4 py-2 rounded-full bg-secondary/50 border border-border text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300"
