@@ -64,8 +64,8 @@ def send_otp():
 
     otp = random.randint(100000, 999999)
     send_email(
-        subject="Your OTP Code",
-        sender="klka@duck.com",
+        subject="AlgoSpark - Verification Code",
+        sender="AlgoSpark <no-reply@algospark.klka.in>",
         recipients=[email],
         text_body=f"Your OTP code is {otp}",
         html_body=f"<p>Your OTP code is <strong>{otp}</strong></p>"
